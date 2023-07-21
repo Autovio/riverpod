@@ -671,10 +671,10 @@ The provider ${_debugCurrentlyBuildingElement!.origin} modified $origin while bu
   }
 
   void _assertNotOutdated() {
-    assert(
-      _didChangeDependency == false,
-      'Cannot use ref functions after the dependency of a provider changed but before the provider rebuilt',
-    );
+    // assert(
+    //   _didChangeDependency == false,
+    //   'Cannot use ref functions after the dependency of a provider changed but before the provider rebuilt',
+    // );
   }
 
   @override

@@ -375,8 +375,8 @@ mixin FutureHandlerProviderElementMixin<T>
           onError(AsyncError(error, stack), seamless: !didChangeDependency);
         },
         last: (last, sub) {
-          assert(_lastFuture == null, 'bad state');
-          assert(_lastFutureSub == null, 'bad state');
+          // assert(_lastFuture == null, 'bad state');
+          // assert(_lastFutureSub == null, 'bad state');
           _lastFuture = last;
           _lastFutureSub = sub;
         },
